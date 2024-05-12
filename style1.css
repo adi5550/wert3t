@@ -1,0 +1,88 @@
+/* Just for the pen to look nice */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color: lightblue;
+}
+h1 {
+    font-weight: bolder;
+    font-size: 50px;
+    padding: 0;
+    margin: 0;
+}
+h4 {
+    font-weight: bolder;
+    font-size: 40px;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 30px;
+}
+header {
+    text-align: center;
+    font-family: Open Sans;
+}
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 70px;
+}
+
+.instagram-logo {
+    width: 80px;
+}
+.whatsapp-logo {
+    width: 90px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 50px;
+}
+
+.subcribe { 
+    background-color: rgb(255, 0, 0);
+    color: white;
+    border: none;
+    padding:7px 16px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.subcribe:hover{
+  opacity: 0.8;
+}
+
+.subcribe:active{
+   opacity: 0.5;
+}
+
+.whatapp { 
+    background-color: rgba(0, 255, 94, 0.801);
+    color: white;
+    border: none;
+    padding:7px 16px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.whatapp:hover {
+  opacity: 0.8;
+}
+
+.whatapp:active {
+   opacity: 0.5;
+}
+
+@media ( max-width: 751px) {
+
+  }
+ 
